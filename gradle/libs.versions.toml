@@ -1,0 +1,8 @@
+[versions]
+kotlin = "1.9.21"
+snakeyaml = "2.2"
+kotlin-logging = "5.1.0"
+
+[libraries]
+snakeyaml-core = { module = "org.yaml:snakeyaml", version.ref = "snakeyaml" }
+kotlin-logging-jvm = { module = "io.github.oshai:kotlin-logging-jvm", version.ref = "kotlin-logging" }
