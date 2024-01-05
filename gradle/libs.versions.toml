@@ -1,8 +1,11 @@
 [versions]
 kotlin = "1.9.21"
-snakeyaml = "2.2"
 kotlin-logging = "5.1.0"
+snakeyaml = "2.2"
+slf4j = "1.7.5"
 
 [libraries]
-snakeyaml-core = { module = "org.yaml:snakeyaml", version.ref = "snakeyaml" }
 kotlin-logging-jvm = { module = "io.github.oshai:kotlin-logging-jvm", version.ref = "kotlin-logging" }
+slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+snakeyaml-core = { module = "org.yaml:snakeyaml", version.ref = "snakeyaml" }
